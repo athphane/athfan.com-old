@@ -1,0 +1,17 @@
+{
+    "name": "athfan.com",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "css": "npx tailwind build src/style.css -o public/style.css",
+        "scss": "node-sass --watch src/scss -o public/css"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "node-sass": "^4.13.0",
+        "tailwindcss": "^1.1.4"
+    }
+}

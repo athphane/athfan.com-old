@@ -1,0 +1,388 @@
+html, body {
+  width: 100%;
+  height: 100%; }
+
+body {
+  background-color: #140032;
+  overflow: hidden;
+  margin: 0; }
+  body *, body *:after, body *:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto; }
+
+.hexagon {
+  width: 50px;
+  height: 25px; }
+  .hexagon, .hexagon span {
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px; }
+  .hexagon span {
+    animation: hexagon 3s linear infinite; }
+    .hexagon span:after, .hexagon span:before {
+      content: '';
+      background-color: currentColor;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%; }
+    .hexagon span:before {
+      transform: translate(25px, -12.5px); }
+    .hexagon span:after {
+      transform: translate(-25px, 12.5px); }
+
+:nth-child(1) {
+  transform: rotate(-7.2deg) translate(150px);
+  color: #ff1f00; }
+  :nth-child(1) span {
+    animation-delay: -0.18s;
+    background-color: rgba(255, 31, 0, 0.5); }
+
+:nth-child(2) {
+  transform: rotate(-14.4deg) translate(150px);
+  color: #ff3d00; }
+  :nth-child(2) span {
+    animation-delay: -0.36s;
+    background-color: rgba(255, 61, 0, 0.5); }
+
+:nth-child(3) {
+  transform: rotate(-21.6deg) translate(150px);
+  color: #ff5c00; }
+  :nth-child(3) span {
+    animation-delay: -0.54s;
+    background-color: rgba(255, 92, 0, 0.5); }
+
+:nth-child(4) {
+  transform: rotate(-28.8deg) translate(150px);
+  color: #ff7a00; }
+  :nth-child(4) span {
+    animation-delay: -0.72s;
+    background-color: rgba(255, 122, 0, 0.5); }
+
+:nth-child(5) {
+  transform: rotate(-36deg) translate(150px);
+  color: #ff9900; }
+  :nth-child(5) span {
+    animation-delay: -0.9s;
+    background-color: rgba(255, 153, 0, 0.5); }
+
+:nth-child(6) {
+  transform: rotate(-43.2deg) translate(150px);
+  color: #ffb800; }
+  :nth-child(6) span {
+    animation-delay: -1.08s;
+    background-color: rgba(255, 184, 0, 0.5); }
+
+:nth-child(7) {
+  transform: rotate(-50.4deg) translate(150px);
+  color: #ffd600; }
+  :nth-child(7) span {
+    animation-delay: -1.26s;
+    background-color: rgba(255, 214, 0, 0.5); }
+
+:nth-child(8) {
+  transform: rotate(-57.6deg) translate(150px);
+  color: #fff500; }
+  :nth-child(8) span {
+    animation-delay: -1.44s;
+    background-color: rgba(255, 245, 0, 0.5); }
+
+:nth-child(9) {
+  transform: rotate(-64.8deg) translate(150px);
+  color: #ebff00; }
+  :nth-child(9) span {
+    animation-delay: -1.62s;
+    background-color: rgba(235, 255, 0, 0.5); }
+
+:nth-child(10) {
+  transform: rotate(-72deg) translate(150px);
+  color: #ccff00; }
+  :nth-child(10) span {
+    animation-delay: -1.8s;
+    background-color: rgba(204, 255, 0, 0.5); }
+
+:nth-child(11) {
+  transform: rotate(-79.2deg) translate(150px);
+  color: #adff00; }
+  :nth-child(11) span {
+    animation-delay: -1.98s;
+    background-color: rgba(173, 255, 0, 0.5); }
+
+:nth-child(12) {
+  transform: rotate(-86.4deg) translate(150px);
+  color: #8fff00; }
+  :nth-child(12) span {
+    animation-delay: -2.16s;
+    background-color: rgba(143, 255, 0, 0.5); }
+
+:nth-child(13) {
+  transform: rotate(-93.6deg) translate(150px);
+  color: #70ff00; }
+  :nth-child(13) span {
+    animation-delay: -2.34s;
+    background-color: rgba(112, 255, 0, 0.5); }
+
+:nth-child(14) {
+  transform: rotate(-100.8deg) translate(150px);
+  color: #52ff00; }
+  :nth-child(14) span {
+    animation-delay: -2.52s;
+    background-color: rgba(82, 255, 0, 0.5); }
+
+:nth-child(15) {
+  transform: rotate(-108deg) translate(150px);
+  color: #33ff00; }
+  :nth-child(15) span {
+    animation-delay: -2.7s;
+    background-color: rgba(51, 255, 0, 0.5); }
+
+:nth-child(16) {
+  transform: rotate(-115.2deg) translate(150px);
+  color: #14ff00; }
+  :nth-child(16) span {
+    animation-delay: -2.88s;
+    background-color: rgba(20, 255, 0, 0.5); }
+
+:nth-child(17) {
+  transform: rotate(-122.4deg) translate(150px);
+  color: #00ff0a; }
+  :nth-child(17) span {
+    animation-delay: -3.06s;
+    background-color: rgba(0, 255, 10, 0.5); }
+
+:nth-child(18) {
+  transform: rotate(-129.6deg) translate(150px);
+  color: #00ff29; }
+  :nth-child(18) span {
+    animation-delay: -3.24s;
+    background-color: rgba(0, 255, 41, 0.5); }
+
+:nth-child(19) {
+  transform: rotate(-136.8deg) translate(150px);
+  color: #00ff47; }
+  :nth-child(19) span {
+    animation-delay: -3.42s;
+    background-color: rgba(0, 255, 71, 0.5); }
+
+:nth-child(20) {
+  transform: rotate(-144deg) translate(150px);
+  color: #00ff66; }
+  :nth-child(20) span {
+    animation-delay: -3.6s;
+    background-color: rgba(0, 255, 102, 0.5); }
+
+:nth-child(21) {
+  transform: rotate(-151.2deg) translate(150px);
+  color: #00ff85; }
+  :nth-child(21) span {
+    animation-delay: -3.78s;
+    background-color: rgba(0, 255, 133, 0.5); }
+
+:nth-child(22) {
+  transform: rotate(-158.4deg) translate(150px);
+  color: #00ffa3; }
+  :nth-child(22) span {
+    animation-delay: -3.96s;
+    background-color: rgba(0, 255, 163, 0.5); }
+
+:nth-child(23) {
+  transform: rotate(-165.6deg) translate(150px);
+  color: #00ffc2; }
+  :nth-child(23) span {
+    animation-delay: -4.14s;
+    background-color: rgba(0, 255, 194, 0.5); }
+
+:nth-child(24) {
+  transform: rotate(-172.8deg) translate(150px);
+  color: #00ffe0; }
+  :nth-child(24) span {
+    animation-delay: -4.32s;
+    background-color: rgba(0, 255, 224, 0.5); }
+
+:nth-child(25) {
+  transform: rotate(-180deg) translate(150px);
+  color: cyan; }
+  :nth-child(25) span {
+    animation-delay: -4.5s;
+    background-color: rgba(0, 255, 255, 0.5); }
+
+:nth-child(26) {
+  transform: rotate(-187.2deg) translate(150px);
+  color: #00e0ff; }
+  :nth-child(26) span {
+    animation-delay: -4.68s;
+    background-color: rgba(0, 224, 255, 0.5); }
+
+:nth-child(27) {
+  transform: rotate(-194.4deg) translate(150px);
+  color: #00c2ff; }
+  :nth-child(27) span {
+    animation-delay: -4.86s;
+    background-color: rgba(0, 194, 255, 0.5); }
+
+:nth-child(28) {
+  transform: rotate(-201.6deg) translate(150px);
+  color: #00a3ff; }
+  :nth-child(28) span {
+    animation-delay: -5.04s;
+    background-color: rgba(0, 163, 255, 0.5); }
+
+:nth-child(29) {
+  transform: rotate(-208.8deg) translate(150px);
+  color: #0085ff; }
+  :nth-child(29) span {
+    animation-delay: -5.22s;
+    background-color: rgba(0, 133, 255, 0.5); }
+
+:nth-child(30) {
+  transform: rotate(-216deg) translate(150px);
+  color: #0066ff; }
+  :nth-child(30) span {
+    animation-delay: -5.4s;
+    background-color: rgba(0, 102, 255, 0.5); }
+
+:nth-child(31) {
+  transform: rotate(-223.2deg) translate(150px);
+  color: #0047ff; }
+  :nth-child(31) span {
+    animation-delay: -5.58s;
+    background-color: rgba(0, 71, 255, 0.5); }
+
+:nth-child(32) {
+  transform: rotate(-230.4deg) translate(150px);
+  color: #0029ff; }
+  :nth-child(32) span {
+    animation-delay: -5.76s;
+    background-color: rgba(0, 41, 255, 0.5); }
+
+:nth-child(33) {
+  transform: rotate(-237.6deg) translate(150px);
+  color: #000aff; }
+  :nth-child(33) span {
+    animation-delay: -5.94s;
+    background-color: rgba(0, 10, 255, 0.5); }
+
+:nth-child(34) {
+  transform: rotate(-244.8deg) translate(150px);
+  color: #1400ff; }
+  :nth-child(34) span {
+    animation-delay: -6.12s;
+    background-color: rgba(20, 0, 255, 0.5); }
+
+:nth-child(35) {
+  transform: rotate(-252deg) translate(150px);
+  color: #3300ff; }
+  :nth-child(35) span {
+    animation-delay: -6.3s;
+    background-color: rgba(51, 0, 255, 0.5); }
+
+:nth-child(36) {
+  transform: rotate(-259.2deg) translate(150px);
+  color: #5200ff; }
+  :nth-child(36) span {
+    animation-delay: -6.48s;
+    background-color: rgba(82, 0, 255, 0.5); }
+
+:nth-child(37) {
+  transform: rotate(-266.4deg) translate(150px);
+  color: #7000ff; }
+  :nth-child(37) span {
+    animation-delay: -6.66s;
+    background-color: rgba(112, 0, 255, 0.5); }
+
+:nth-child(38) {
+  transform: rotate(-273.6deg) translate(150px);
+  color: #8f00ff; }
+  :nth-child(38) span {
+    animation-delay: -6.84s;
+    background-color: rgba(143, 0, 255, 0.5); }
+
+:nth-child(39) {
+  transform: rotate(-280.8deg) translate(150px);
+  color: #ad00ff; }
+  :nth-child(39) span {
+    animation-delay: -7.02s;
+    background-color: rgba(173, 0, 255, 0.5); }
+
+:nth-child(40) {
+  transform: rotate(-288deg) translate(150px);
+  color: #cc00ff; }
+  :nth-child(40) span {
+    animation-delay: -7.2s;
+    background-color: rgba(204, 0, 255, 0.5); }
+
+:nth-child(41) {
+  transform: rotate(-295.2deg) translate(150px);
+  color: #eb00ff; }
+  :nth-child(41) span {
+    animation-delay: -7.38s;
+    background-color: rgba(235, 0, 255, 0.5); }
+
+:nth-child(42) {
+  transform: rotate(-302.4deg) translate(150px);
+  color: #ff00f5; }
+  :nth-child(42) span {
+    animation-delay: -7.56s;
+    background-color: rgba(255, 0, 245, 0.5); }
+
+:nth-child(43) {
+  transform: rotate(-309.6deg) translate(150px);
+  color: #ff00d6; }
+  :nth-child(43) span {
+    animation-delay: -7.74s;
+    background-color: rgba(255, 0, 214, 0.5); }
+
+:nth-child(44) {
+  transform: rotate(-316.8deg) translate(150px);
+  color: #ff00b8; }
+  :nth-child(44) span {
+    animation-delay: -7.92s;
+    background-color: rgba(255, 0, 184, 0.5); }
+
+:nth-child(45) {
+  transform: rotate(-324deg) translate(150px);
+  color: #ff0099; }
+  :nth-child(45) span {
+    animation-delay: -8.1s;
+    background-color: rgba(255, 0, 153, 0.5); }
+
+:nth-child(46) {
+  transform: rotate(-331.2deg) translate(150px);
+  color: #ff007a; }
+  :nth-child(46) span {
+    animation-delay: -8.28s;
+    background-color: rgba(255, 0, 122, 0.5); }
+
+:nth-child(47) {
+  transform: rotate(-338.4deg) translate(150px);
+  color: #ff005c; }
+  :nth-child(47) span {
+    animation-delay: -8.46s;
+    background-color: rgba(255, 0, 92, 0.5); }
+
+:nth-child(48) {
+  transform: rotate(-345.6deg) translate(150px);
+  color: #ff003d; }
+  :nth-child(48) span {
+    animation-delay: -8.64s;
+    background-color: rgba(255, 0, 61, 0.5); }
+
+:nth-child(49) {
+  transform: rotate(-352.8deg) translate(150px);
+  color: #ff001f; }
+  :nth-child(49) span {
+    animation-delay: -8.82s;
+    background-color: rgba(255, 0, 31, 0.5); }
+
+:nth-child(50) {
+  transform: rotate(-360deg) translate(150px);
+  color: red; }
+  :nth-child(50) span {
+    animation-delay: -9s;
+    background-color: rgba(255, 0, 0, 0.5); }
+
+@keyframes hexagon {
+  100% {
+    transform: rotate(360deg); } }
