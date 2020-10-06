@@ -11409,6 +11409,160 @@ video {
   height: 100vh;
 }
 
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.parent img{
+  height: 150px;
+}
+
+.image1 {
+  position: relative;
+  top: 12px;
+  left: 12px;
+  -webkit-animation-name: first-image;
+          animation-name: first-image;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.image2 {
+  position: absolute;
+  top: 6px;
+  left: -10px;
+}
+
+.image3 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+/* The animation code */
+
+@-webkit-keyframes first-image {
+  0%   {
+    top: 12px;
+    left:12px;
+  }
+
+  10%   {
+    top: 12.5px;
+    left:12.5px;
+  }
+
+  20%   {
+    top: 13px;
+    left:13px;
+  }
+
+  30%   {
+    top: 13.5px;
+    left:13.5px;
+  }
+
+  40%   {
+    top: 14px;
+    left:14px;
+  }
+
+  50%   {
+    top: 14.5px;
+    left:14.5px;
+  }
+
+  60%   {
+    top: 15px;
+    left:15px;
+  }
+
+  70%   {
+    top: 15.5px;
+    left:15.5px;
+  }
+
+  80%   {
+    top: 16px;
+    left:16px;
+  }
+
+  90%   {
+    top: 16.5px;
+    left:16.5px;
+  }
+
+  100%   {
+    top: 17px;
+    left:17px;
+  }
+}
+
+@keyframes first-image {
+  0%   {
+    top: 12px;
+    left:12px;
+  }
+
+  10%   {
+    top: 12.5px;
+    left:12.5px;
+  }
+
+  20%   {
+    top: 13px;
+    left:13px;
+  }
+
+  30%   {
+    top: 13.5px;
+    left:13.5px;
+  }
+
+  40%   {
+    top: 14px;
+    left:14px;
+  }
+
+  50%   {
+    top: 14.5px;
+    left:14.5px;
+  }
+
+  60%   {
+    top: 15px;
+    left:15px;
+  }
+
+  70%   {
+    top: 15.5px;
+    left:15.5px;
+  }
+
+  80%   {
+    top: 16px;
+    left:16px;
+  }
+
+  90%   {
+    top: 16.5px;
+    left:16.5px;
+  }
+
+  100%   {
+    top: 17px;
+    left:17px;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
